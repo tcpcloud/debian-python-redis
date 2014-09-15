@@ -1,0 +1,115 @@
+python-redis (2.10.1-1ubuntu1) utopic; urgency=medium
+
+  * d/control: Drop python-hiredis down to a Suggests to avoid main
+    inclusion in Ubuntu (LP: #1349889). 
+
+ -- James Page <james.page@ubuntu.com>  Mon, 15 Sep 2014 10:32:45 +0100
+
+python-redis (2.10.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Chris Lamb <lamby@debian.org>  Sat, 05 Jul 2014 17:20:32 +0100
+
+python-redis (2.9.1-3) unstable; urgency=medium
+
+  * Add python-hiredis to Recommends due to performance improvements when used
+    together (Closes: #749077)
+
+ -- Chris Lamb <lamby@debian.org>  Fri, 23 May 2014 22:10:58 +0100
+
+python-redis (2.9.1-2) unstable; urgency=low
+
+  * Add Python 3 package. (Closes: #739552)
+  * Update debian/watch.
+  * Bump Standards-Version to 3.9.5.
+
+ -- Chris Lamb <lamby@debian.org>  Wed, 19 Feb 2014 22:55:12 +0000
+
+python-redis (2.9.1-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Chris Lamb <lamby@debian.org>  Sat, 15 Feb 2014 22:57:01 +0000
+
+python-redis (2.7.2-1) unstable; urgency=low
+
+  * New upstream version. (Closes: #729834)
+  * Bump Standards-Version to 3.9.4.
+
+ -- Chris Lamb <lamby@debian.org>  Mon, 18 Nov 2013 12:11:36 +0000
+
+python-redis (2.4.13-2) unstable; urgency=low
+
+  * Transition to dh_python2. Thanks to Andres Rodriguez <andreserl@gmail.com>
+    (Closes: #680567)
+
+ -- Chris Lamb <lamby@debian.org>  Sat, 07 Jul 2012 21:13:14 +0100
+
+python-redis (2.4.13-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Chris Lamb <lamby@debian.org>  Wed, 13 Jun 2012 16:18:16 +0100
+
+python-redis (2.4.9-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Chris Lamb <lamby@debian.org>  Fri, 29 Jul 2011 01:01:44 +0200
+
+python-redis (2.4.5-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.2.
+
+ -- Chris Lamb <lamby@debian.org>  Sat, 18 Jun 2011 14:55:43 +0100
+
+python-redis (2.2.4-1) unstable; urgency=low
+
+  * New upstream release.
+  * Fix debian/watch file.
+
+ -- Chris Lamb <lamby@debian.org>  Fri, 22 Apr 2011 15:59:38 +0100
+
+python-redis (2.2.1-2) unstable; urgency=low
+
+  * Rebuild in sane environment to prevent uninstallability on sid.
+    (Closes: #616000)
+
+ -- Chris Lamb <lamby@debian.org>  Wed, 02 Mar 2011 00:36:24 +0000
+
+python-redis (2.2.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update Vcs-{Git,Browser}.
+
+ -- Chris Lamb <lamby@debian.org>  Sat, 26 Feb 2011 22:39:33 +0000
+
+python-redis (2.0.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.1.
+  * Move to 3.0 (quilt) dpkg format.
+
+ -- Chris Lamb <lamby@debian.org>  Wed, 28 Jul 2010 09:49:45 -0400
+
+python-redis (1.34.1+git20100401235334-1) unstable; urgency=low
+
+  * New upstream snapshot.
+
+ -- Chris Lamb <lamby@debian.org>  Tue, 06 Apr 2010 17:01:09 +0100
+
+python-redis (1.34.1-1) unstable; urgency=low
+
+  * New upstream release (Closes: #571563)
+  * Bump Standards-Version to 3.8.4.
+
+ -- Chris Lamb <lamby@debian.org>  Fri, 26 Feb 2010 02:07:44 +0000
+
+python-redis (0.6.1-1) unstable; urgency=low
+
+  * Initial release.
+    - Source package split from "redis" source package.
+
+ -- Chris Lamb <lamby@debian.org>  Wed, 13 Jan 2010 23:54:06 +0000
