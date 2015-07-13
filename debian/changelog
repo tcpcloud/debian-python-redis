@@ -1,4 +1,4 @@
-python-redis (2.10.1-1ubuntu1) trusty; urgency=medium
+python-redis (2.10.1-1ubuntu1) utopic; urgency=medium
 
   * d/control: Drop python-hiredis down to a Suggests to avoid main
     inclusion in Ubuntu (LP: #1349889). 
