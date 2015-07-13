@@ -1,3 +1,9 @@
+python-redis (2.10.1-1ubuntu1tcp1) trusty; urgency=medium
+
+  * trusty backport
+
+ -- Filip Pytloun <filip@pytloun.cz>  Mon, 13 Jul 2015 10:18:40 +0200
+
 python-redis (2.10.1-1ubuntu1) utopic; urgency=medium
 
   * d/control: Drop python-hiredis down to a Suggests to avoid main
